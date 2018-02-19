@@ -1,0 +1,45 @@
+{
+  "name": "bootstrap-4-sample",
+  "version": "1.0.0",
+  "description": "A sample web project using the new Bootstrap 4 framework, based upon Node.js with Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --progress --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryceStPierre/bootstrap-4-sample.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "Bryce St. Pierre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryceStPierre/bootstrap-4-sample/issues"
+  },
+  "homepage": "https://github.com/BryceStPierre/bootstrap-4-sample#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "uglifyjs-webpack-plugin": "^1.2.0",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
