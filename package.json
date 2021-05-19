@@ -31,7 +31,7 @@
     "macaddress": "^0.2.9",
     "popper.js": "^1.12.9",
     "sshpk": "^1.14.2",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.5.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
