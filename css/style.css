@@ -1,0 +1,11 @@
+#editor {
+  height: 90px;
+}
+
+.action-buttons i {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  z-index: 9999;
+}
